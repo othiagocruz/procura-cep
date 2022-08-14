@@ -72,7 +72,7 @@
       <p>{address.localidade} - {address.uf}</p>
       <p>{address.cep}</p>
       <iframe
-        src={`http://maps.google.com/maps?q=${address.cep}&z=15&output=embed`}
+        src={`https://maps.google.com/maps?q=${address.cep}&z=15&output=embed`}
         width="100%"
         height="370"
         title="mapa"
