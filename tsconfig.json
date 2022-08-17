@@ -11,12 +11,6 @@
     "strict": true,
     "baseUrl": ".",
     "importsNotUsedAsValues": "error",
-    "isolatedModules": true,
-    "paths": {
-      "$components": ["src/components"],
-      "$components/*": ["src/components/*"],
-      "$styles": ["src/styles"],
-      "$styles/*": ["src/styles/*"]
-    }
+    "isolatedModules": true
   }
 }

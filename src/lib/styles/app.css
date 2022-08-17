@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  max-width: 64%;
+  margin: 0 auto;
+}
+
+iframe {
+  border: 0;
+  margin-top: 14px;
+}
+
+form {
+  background: #eee;
+  color: #666;
+  padding: 20px;
+}
+
+form h2 {
+  color: #090909;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+}
+
+form input {
+  margin: 0 7px 0 21px;
+  padding: 5px;
+}
+
+form button {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  background: #3498db;
+  padding: 5px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #428bb8;
+  text-decoration: none;
+}
+
+.result {
+  border: 3px solid #eee;
+  padding: 20px;
+  margin-top: 7px;
+}
+
+.result h3,
+.result p {
+  margin: 0 0 5px 0px;
+}
+
+.result button {
+  float: right;
+  background: none;
+  border: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ccc;
+  position: relative;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}
